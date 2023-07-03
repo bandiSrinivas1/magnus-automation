@@ -72,7 +72,7 @@ public class B2BBaseAutomationPage {
 	}
 
 	protected void selectValueFromDropdown(WebElement element, String value) {
-		log.info("Starting of selectValueFromDropdown method");
+		log.info("Starting of selectValueFromDropdown method ");
 
 		Select conditions = new Select(element);
 		conditions.selectByValue(value);
