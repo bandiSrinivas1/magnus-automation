@@ -3,10 +3,7 @@
  */
 package com.classplusapp.common;
 
-/**
- * @author nares
- *
- */
+
 public enum TestDataPropertiesEnum {
 
 	EXPECTED_ASSERTIONS("expectedassertions"),
